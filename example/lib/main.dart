@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:uae_pass/uae_pass.dart';
+import 'package:flutter_uae_pass/uae_pass.dart';
 
 void main() {
   runApp(const MyApp());

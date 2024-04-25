@@ -146,13 +146,13 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "uae_pass",
+      "name": "flutter_uae_pass",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-04-25T21:34:20.059733Z",
+  "generated": "2024-04-25T21:50:47.694842Z",
   "generator": "pub",
   "generatorVersion": "3.2.5"
 }

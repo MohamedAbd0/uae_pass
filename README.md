@@ -21,7 +21,7 @@ flutter pub get
 - Import the package
 
 ```dart
-import 'package:uae_pass/uae_pass.dart';
+import 'package:flutter_uae_pass/uae_pass.dart';
 final _uaePassPlugin = UaePass();
 
 
