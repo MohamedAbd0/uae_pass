@@ -9,7 +9,7 @@ Un-official UAE Pass Flutter plugin for Android and iOS.
 - Add the plugin to your pubspec.yaml file
 
 ```yaml
-uae_pass: ^0.0.1
+flutter_uae_pass: ^0.0.1
 ```
 
 - Run flutter pub get
