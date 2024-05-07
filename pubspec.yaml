@@ -1,9 +1,8 @@
 name: flutter_uae_pass
 description: A UAE Pass plugin for Flutter for iOS and Android only. This is an unofficial version.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/MohamedAbd0/uae_pass
 repository: https://github.com/MohamedAbd0/uae_pass
-issue_tracker: https://github.com/MohamedAbd0/uae_pass/issues
 
 environment:
   sdk: ">=3.0.2 <4.0.0"

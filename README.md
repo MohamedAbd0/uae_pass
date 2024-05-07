@@ -71,6 +71,20 @@ final _uaePassPlugin = UaePass();
 ```
 
 # To get public profile data
+you can fetch this information from profile
+-  email
+-  firstnameAR
+-  firstnameEN
+-  fullnameEN
+-  gender
+-  lastnameAR
+-  lastnameEN
+-  mobile
+-  nationalityAR
+-  nationalityEN
+-  sub
+- userType
+- uuid
 
 ```dart
   ProfileData? profileData = await _uaePassPlugin.getProfile(accessToken);

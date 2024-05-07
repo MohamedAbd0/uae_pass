@@ -3,7 +3,7 @@
 # Run `pod lib lint uae_pass.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'uae_pass_flutter'
+  s.name             = 'flutter_uae_pass'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
