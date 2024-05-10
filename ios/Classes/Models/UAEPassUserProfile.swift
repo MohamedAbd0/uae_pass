@@ -21,6 +21,8 @@ import Foundation
     @objc public let firstnameEN: String?
     @objc public let sub: String?
     @objc public let lastnameEN: String?
+    @objc public let fullnameEN: String?
+    @objc public let fullnameAR: String?
     @objc public let email: String?
     @objc public let gender: String?
     @objc public let homeAddressEmirateCode: String?
@@ -49,6 +51,8 @@ import Foundation
         case firstnameEN//firstnameEN//, first_name
         case sub
         case lastnameEN//lastnameEN//, last_name
+        case fullnameEN
+        case fullnameAR
         case email
         case gender
         case homeAddressEmirateCode
@@ -71,6 +75,8 @@ import Foundation
         firstnameEN = try values.decodeIfPresent(String.self, forKey: .firstnameEN)
         sub = try values.decodeIfPresent(String.self, forKey: .sub)
         lastnameEN = try values.decodeIfPresent(String.self, forKey: .lastnameEN)
+        fullnameEN = try values.decodeIfPresent(String.self, forKey: .fullnameEN)
+        fullnameAR = try values.decodeIfPresent(String.self, forKey: .fullnameAR)
         email = try values.decodeIfPresent(String.self, forKey: .email)
         gender = try values.decodeIfPresent(String.self, forKey: .gender)
         homeAddressEmirateCode = try values.decodeIfPresent(String.self, forKey: .homeAddressEmirateCode)

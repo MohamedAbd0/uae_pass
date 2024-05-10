@@ -23,6 +23,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+
     _uaePass.setUpEnvironment(
       clientId: "<clientId>",
       clientSecret: "<clientSecret>",
@@ -65,6 +66,10 @@ class _MyAppState extends State<MyApp> {
                     ListTile(
                       title: const Text('Full Name EN'),
                       subtitle: Text(profileData?.fullnameEN ?? ""),
+                    ),
+                    ListTile(
+                      title: const Text('Full Name AR'),
+                      subtitle: Text(profileData?.fullnameAR ?? ""),
                     ),
                     ListTile(
                       title: const Text('Mobile'),
