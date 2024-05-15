@@ -3,6 +3,8 @@ class ProfileData {
   String? firstnameAR;
   String? firstnameEN;
   String? fullnameEN;
+    String? fullnameAR;
+
   String? gender;
   String? lastnameAR;
   String? lastnameEN;
@@ -18,6 +20,7 @@ class ProfileData {
     this.firstnameAR,
     this.firstnameEN,
     this.fullnameEN,
+    this.fullnameAR,
     this.gender,
     this.lastnameAR,
     this.lastnameEN,
@@ -34,6 +37,7 @@ class ProfileData {
     firstnameAR = json['firstnameAR'];
     firstnameEN = json['firstnameEN'];
     fullnameEN = json['fullnameEN'];
+    fullnameAR= json['fullnameAR'];
     gender = json['gender'];
     lastnameAR = json['lastnameAR'];
     lastnameEN = json['lastnameEN'];
@@ -51,6 +55,7 @@ class ProfileData {
     data['firstnameAR'] = firstnameAR;
     data['firstnameEN'] = firstnameEN;
     data['fullnameEN'] = fullnameEN;
+    data['fullnameAR'] = fullnameAR;
     data['gender'] = gender;
     data['lastnameAR'] = lastnameAR;
     data['lastnameEN'] = lastnameEN;
