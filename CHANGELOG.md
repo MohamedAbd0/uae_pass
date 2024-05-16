@@ -6,3 +6,6 @@
 ## 0.0.2
 - iOS build issues fixed
 
+## 0.0.3
+- fixed bug for null values in profile information
+
