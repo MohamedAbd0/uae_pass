@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_uae_pass/uae_pass.dart';
@@ -63,6 +65,10 @@ class _MyAppState extends State<MyApp> {
               if (profileData != null)
                 Column(
                   children: [
+                    ListTile(
+                      title: const Text('Emirates Id'),
+                      subtitle: Text(profileData?.idn ?? ""),
+                    ),
                     ListTile(
                       title: const Text('Full Name EN'),
                       subtitle: Text(profileData?.fullnameEN ?? ""),
