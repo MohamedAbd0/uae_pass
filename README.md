@@ -72,6 +72,7 @@ final _uaePassPlugin = UaePass();
 
 # To get public profile data
 you can fetch this information from profile
+-  idn
 -  email
 -  firstnameAR
 -  firstnameEN
