@@ -14,6 +14,7 @@ class ProfileData {
   String? sub;
   String? userType;
   String? uuid;
+  String? idn;
 
   ProfileData({
     this.email,
@@ -30,6 +31,7 @@ class ProfileData {
     this.sub,
     this.userType,
     this.uuid,
+    this.idn,
   });
 
   ProfileData.fromJson(Map<String, dynamic> json) {
@@ -47,6 +49,7 @@ class ProfileData {
     sub = json['sub'];
     userType = json['userType'];
     uuid = json['uuid'];
+    idn = json['idn'];
   }
 
   Map<String, dynamic> toJson() {
@@ -65,6 +68,7 @@ class ProfileData {
     data['sub'] = sub;
     data['userType'] = userType;
     data['uuid'] = uuid;
+    data['idn'] = idn;
     return data;
   }
 }

@@ -64,6 +64,10 @@ class _MyAppState extends State<MyApp> {
                 Column(
                   children: [
                     ListTile(
+                      title: const Text('Emirates Id'),
+                      subtitle: Text(profileData?.idn ?? ""),
+                    ),
+                    ListTile(
                       title: const Text('Full Name EN'),
                       subtitle: Text(profileData?.fullnameEN ?? ""),
                     ),
